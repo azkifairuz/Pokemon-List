@@ -23,7 +23,7 @@
             tools:src="@tools:sample/avatars"
             />
         <TextView
-            android:id="@+id/yv_pokemon_name"
+            android:id="@+id/tv_pokemon_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="@string/pokemon_name"
