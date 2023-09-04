@@ -1,5 +1,6 @@
 package com.example.pokemonlist
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -30,6 +31,10 @@ class ListPokemonAdapter(private val listPokemon: ArrayList<Pokemon>)
         holder.imgPhoto.setImageResource(photo)
         holder.name.text = name
         holder.type.text = type
-
+        holder.itemView.setOnClickListener{
+            val intentDetail = Intent(holder.itemView.context, DetailPageActivity::class.java)
+            intentDetail.putExtra(DetailPageActivity.KEY_POKEMON, listPokemon[holder.adapterPosition])
+            holder.itemView.context.startActivity(intentDetail)
+        }
     }
 }

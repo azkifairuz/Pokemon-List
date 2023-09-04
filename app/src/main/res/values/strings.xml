@@ -3,7 +3,8 @@
     <string name="pokemon_image">pokemon_image</string>
     <string name="pokemon_name">pokemon name</string>
     <string name="type">type</string>
-    
+    <string name="pokemon_desc">deskripsi</string>
+
     <string-array name="data_name">
         <item>Arbok</item>
         <item>Beedrill</item>
