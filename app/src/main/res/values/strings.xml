@@ -1,9 +1,13 @@
 <resources>
-    <string name="app_name">PokemonList</string>
+    <string name="app_name">Pokemon</string>
     <string name="pokemon_image">pokemon_image</string>
     <string name="pokemon_name">pokemon name</string>
     <string name="type">type</string>
     <string name="pokemon_desc">deskripsi</string>
+    <string name="my_name">Azkia Ajmal Fairuz</string>
+    <string name="my_email">azkiajmal@gmail.com</string>
+    <string name="github_com_azkifairuz">github.com/azkifairuz</string>
+    <string name="about">About</string>
 
     <string-array name="data_name">
         <item>Arbok</item>
