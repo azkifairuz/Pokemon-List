@@ -2,8 +2,16 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.PokemonList" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/yellow_light</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
+
 
     <style name="Theme.PokemonList" parent="Base.Theme.PokemonList" />
 </resources>
