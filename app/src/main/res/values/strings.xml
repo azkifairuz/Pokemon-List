@@ -19,6 +19,21 @@
         <item>Venusaur</item>
     </string-array>
 
+    <string-array name="data_description">
+        <item>The frightening patterns on its belly have been studied. Six variations have been confirmed.</item>
+        <item>It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly. </item>
+        <item>It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell. </item>
+        <item>It loves the nectar of flowers and can locate flower patches that have even tiny amounts of pollen. </item>
+        <item>It is said that Charizard’s fire burns hotter if it has experienced harsh battles.</item>
+        <item>A Pokémon that dates back many years. If it senses danger, it flies high and away, instantly. </item>
+        <item>When it goes on a rampage, it’s impossible to control. But in the presence of a Nidoqueen it’s lived with for a long time, Nidoking calms down. </item>
+        <item>Nidoqueen is better at defense than offense. With scales like armor, this Pokémon will shield its children from any kind of attack. </item>
+        <item>This Pokémon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons. </item>
+        <item>When it is angered, it immediately discharges the energy stored in the pouches in its cheeks. </item>
+        <item>The drier the area Sandslash lives in, the harder and smoother the Pokémon’s spikes will feel when touched.</item>
+        <item>Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight. </item>
+    </string-array>
+
     <string-array name="pokemon_types">
         <item>Poison</item>
         <item>Bug</item>
