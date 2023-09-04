@@ -31,14 +31,26 @@
             android:textSize="22sp"
             android:layout_marginHorizontal="16dp"
             />
-        <TextView
-            android:id="@+id/tv_element"
-            android:layout_width="match_parent"
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="@string/element"
-            android:textSize="16sp"
-            android:layout_marginHorizontal="16dp"
-            />
+            android:layout_margin="16dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="2dp"
+            card_view:cardBackgroundColor="?attr/colorPrimary"
+            card_view:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/type"
+                android:textSize="16sp"
+                android:textColor="@color/blue_dark"
+                android:layout_marginHorizontal="16dp"
+                />
+
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>

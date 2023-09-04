@@ -2,5 +2,50 @@
     <string name="app_name">PokemonList</string>
     <string name="pokemon_image">pokemon_image</string>
     <string name="pokemon_name">pokemon name</string>
-    <string name="element">element</string>
+    <string name="type">type</string>
+    
+    <string-array name="data_name">
+        <item>Arbok</item>
+        <item>Beedrill</item>
+        <item>Blastoise</item>
+        <item>Butterfree</item>
+        <item>Charizard</item>
+        <item>Fearow</item>
+        <item>Nidoking</item>
+        <item>Nidoqueen</item>
+        <item>Pidgeot</item>
+        <item>Pikachu</item>
+        <item>Sandslash</item>
+        <item>Venusaur</item>
+    </string-array>
+
+    <string-array name="pokemon_types">
+        <item>Poison</item>
+        <item>Bug</item>
+        <item>Water</item>
+        <item>Flying</item>
+        <item>Fire</item>
+        <item>Normal</item>
+        <item>Ground/Poison</item>
+        <item>Ground/Poison</item>
+        <item>Flying</item>
+        <item>Electric</item>
+        <item>Ground</item>
+        <item>Grass/Poison</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/arbok</item>
+        <item>@drawable/beedrill</item>
+        <item>@drawable/blastoise</item>
+        <item>@drawable/butterfree</item>
+        <item>@drawable/charizard</item>
+        <item>@drawable/fearow</item>
+        <item>@drawable/nidoking</item>
+        <item>@drawable/nidoqueen</item>
+        <item>@drawable/pidgeot</item>
+        <item>@drawable/pikachu</item>
+        <item>@drawable/sandslash</item>
+        <item>@drawable/venusaur</item>
+    </integer-array>
 </resources>
